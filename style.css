@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  background-color: #f4f4f4;
+  color: #222;
+  line-height: 1.6;
+  padding: 30px;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #111;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 8px;
+  color: #e0e0e0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.4em;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+/* Seções */
+section {
+  background-color: #ffffff;
+  margin-top: 20px;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+section:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transform: translateY(-2px);
+}
+
+h2 {
+  font-size: 2em;
+  color: #111;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #5a4b81;
+  padding-bottom: 5px;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* Botão Voltar */
+.voltar {
+  margin-bottom: 20px;
+}
+
+.botao-voltar {
+  display: inline-block;
+  background-color: #4b3f72;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.botao-voltar:hover {
+  background-color: #3a2f5b;
+}
+
+/* Rodapé */
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #000;
+  color: #ccc;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1em;
+  box-shadow: 0 -4px 8px rgba(0,0,0,0.2);
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Links */
+a {
+  color: #4b3f72;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Imagens (caso existam nessa parte) */
+.mapa, .imgisrael {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.mapa img, .imgisrael img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  border: 3px solid #ccc;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
